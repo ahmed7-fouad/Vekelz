@@ -9,7 +9,7 @@ const message=document.getElementById('message');
 const setting =document.getElementById('setting');
 
 const url=window.location.pathname;
-const url_name=url.slice(url.lastIndexOf("/")+1);
+const url_name=url.slice(url.lastIndexOf("/") + 1);
 if(url_name=='index.html'){
 
 dashboard.classList.add("active");
